@@ -1,4 +1,4 @@
-import { Link, LinkExternal } from "../ui/link";
+import { LinkExternal } from "../ui/link";
 
 export function Disclaimer() {
   return (
