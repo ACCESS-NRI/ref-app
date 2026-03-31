@@ -46,32 +46,38 @@ export function WelcomeModal() {
       <DialogContent>
         <DialogHeader>
           <DialogTitle className="text-center text-2xl font-bold mb-4 flex flex-row items-center justify-center gap-4">
-            Welcome to the Climate-REF
+            Welcome to ACCESS-NRI REF
             <img
-              src="/logos/logo_cmip_ref.png"
-              alt="CMIP Rapid Evaluation Framework"
-              className="h-10 w-12"
+              src="/logos/ACCESS-NRI/access_logo_rgb.svg"
+              alt="ACCESS-NRI"
+              className="h-10"
             />
           </DialogTitle>
           <DialogDescription>
-            Climate-REF (Rapid Evaluation Framework) provides a consistent,
-            reproducible platform for evaluating climate model outputs against
-            reference datasets, visualising results, and comparing performance
-            across models and versions.
+            This is an ACCESS-NRI deployment of the Rapid Evaluation Framework
+            (Climate-REF), providing a consistent, reproducible platform for
+            evaluating climate model outputs against reference datasets,
+            visualising results, and comparing performance across models and
+            versions.
           </DialogDescription>
         </DialogHeader>
 
         <div className="space-y-4">
           <p className="text-sm text-muted-foreground">
-            This interface exposes pre-computed diagnostics, execution groups,
-            and visualisations produced by 4 diagnostic providers (ESMValTool,
-            ILAMB/IOMB and PMP). The Climate-REF can also be run locally or
-            deployed on your own infrastructure if you wish to evaluate data not
-            yet published on ESGF; see the{" "}
+            This interface provides ACCESS-NRI community members with a platform
+            to evaluate and intercompare climate models submitted for the ACCESS
+            modelling system. The ACCESS-NRI REF exposes pre-computed diagnostics,
+            execution groups, and visualisations produced by diagnostic providers
+            (ESMValTool, ILAMB/IOMB and PMP). For more information about the
+            Climate-REF, see the{" "}
             <LinkExternal href="https://climate-ref.readthedocs.io/en/latest/">
               documentation
             </LinkExternal>{" "}
-            for more information.
+            or visit the{" "}
+            <LinkExternal href="https://www.access-nri.org.au/">
+              ACCESS-NRI website
+            </LinkExternal>
+            .
           </p>
           <p className="text-sm text-muted-foreground">
             The results presented here focus on CMIP6 datasets, but this will be
