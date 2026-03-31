@@ -46,12 +46,26 @@ const Dashboard = () => {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  CMIP7 Assessment Fast Track
+                  ACCESS-NRI Deployment of the
                   <br /> Rapid Evaluation Framework
                 </h1>
                 <p className="mx-auto max-w-8xl text-gray-500 md:text-xl dark:text-gray-400 mt-6">
                   Systematic and comprehensive evaluation of climate models
                   through comparison with observational data
+                </p>
+                <p className="mx-auto max-w-3xl text-gray-500 md:text-base dark:text-gray-400 mt-2">
+                  This is a deployment test by{" "}
+                  <a
+                    href="https://www.access-nri.org.au"
+                    className="underline hover:text-gray-700 dark:hover:text-gray-200"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    ACCESS-NRI
+                  </a>{" "}
+                  to use the REF as an evaluation engine during the development
+                  of the ACCESS-ESM1.6 model in preparation for the CMIP7
+                  Assessment Fast Track.
                 </p>
               </div>
               <CTA />
